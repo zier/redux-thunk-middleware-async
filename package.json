@@ -1,0 +1,33 @@
+{
+  "name": "redux-thunk-middleware-async",
+  "version": "1.0.5",
+  "description": "middleware redux-thunk support async & await",
+  "keywords": [
+    "redux",
+    "thunk",
+    "middleware",
+    "async",
+    "await"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel ./src/middleware.js -o ./src/index.js"
+  },
+  "author": "xier",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.46",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "redux": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
